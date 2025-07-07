@@ -1,16 +1,13 @@
-const jsonServer = require("json-server");
-const server = jsonServer.create();
-const path = require("path");
-const fs = require("fs");
+const jsonServer = require('json-server')
+const server = jsonServer.create()
+const router = jsonServer.router('db.json')
+const middlewares = jsonServer.defaults()
 
-const middlewares = jsonServer.defaults();
-server.use(middlewares);
-server.use(jsonServer.bodyParser);
+server.use(middlewares)
+server.use(jsonServer.bodyParser)
+server.use('/api', router)
 
-// Load db.json content in-memory
-const data = JSON.parse(fs.readFileSync(path.join(__dirname, "db.json"), "utf-8"));
-const router = jsonServer.router(data); // gunakan object, bukan path file
-
-server.use("/api", router);
-
-module.exports = server;
+const port = process.env.PORT || 3000
+server.listen(port, () => {
+  console.log(`JSON Server is running on port ${port}`)
+})

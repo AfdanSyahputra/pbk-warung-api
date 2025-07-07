@@ -1,41 +1,49 @@
 {
   "barang": [
     {
-      "id": "1",
+      "id": 1,
       "nama": "Indomie Goreng",
-      "stok": 23,
+      "stok": 25,
       "harga": 2500,
       "kategori": "Makanan"
     },
     {
-      "id": "2",
+      "id": 2,
       "nama": "Kopi ABC",
       "stok": 13,
       "harga": 2000,
       "kategori": "Minuman"
     },
     {
-      "id": "3",
+      "id": 3,
       "nama": "Aqua Botol",
       "stok": 18,
       "harga": 4000,
       "kategori": "Minuman"
     },
     {
-      "id": "4",
+      "id": 4,
       "nama": "Teh Botol",
       "stok": 99,
       "harga": 5000,
       "kategori": "Minuman"
+    },
+    {
+      "id": 5,
+      "nama": "surya",
+      "stok": 21,
+      "harga": 2000,
+      "kategori": "Rokok"
     }
   ],
   "transaksi": [
     {
-      "id": "t1",
+      "id": "35ee",
       "items": [
         {
-          "id": "1",
+          "id": 1,
           "nama": "Indomie Goreng",
+          "stok": 30,
           "harga": 2500,
           "kategori": "Makanan",
           "jumlah": 3
@@ -45,11 +53,12 @@
       "waktu": "2025-07-05T05:04:14.798Z"
     },
     {
-      "id": "t2",
+      "id": "6498",
       "items": [
         {
-          "id": "4",
+          "id": 4,
           "nama": "Teh Botol",
+          "stok": 5,
           "harga": 5000,
           "kategori": "Minuman",
           "jumlah": 5
@@ -59,11 +68,12 @@
       "waktu": "2025-07-05T05:38:42.199Z"
     },
     {
-      "id": "t3",
+      "id": "b912",
       "items": [
         {
-          "id": "4",
+          "id": 4,
           "nama": "Teh Botol",
+          "stok": 0,
           "harga": 5000,
           "kategori": "Minuman",
           "jumlah": 1
@@ -73,32 +83,36 @@
       "waktu": "2025-07-05T05:38:48.931Z"
     },
     {
-      "id": "t4",
+      "id": "Cq0oaRp",
       "items": [
         {
-          "id": "1",
+          "id": 1,
           "nama": "Indomie Goreng",
+          "stok": 27,
           "harga": 2500,
           "kategori": "Makanan",
           "jumlah": 2
         },
         {
-          "id": "2",
+          "id": 2,
           "nama": "Kopi ABC",
+          "stok": 15,
           "harga": 2000,
           "kategori": "Minuman",
           "jumlah": 2
         },
         {
-          "id": "3",
+          "id": 3,
           "nama": "Aqua Botol",
+          "stok": 20,
           "harga": 4000,
           "kategori": "Minuman",
           "jumlah": 2
         },
         {
-          "id": "4",
+          "id": 4,
           "nama": "Teh Botol",
+          "stok": 100,
           "harga": 5000,
           "kategori": "Minuman",
           "jumlah": 1
@@ -106,39 +120,11 @@
       ],
       "total": 22000,
       "waktu": "2025-07-05T11:57:04.269Z"
-    },
-    {
-      "id": "t5",
-      "items": [
-        {
-          "id": "1",
-          "nama": "Indomie Goreng",
-          "harga": 2500,
-          "kategori": "Makanan",
-          "jumlah": 1
-        }
-      ],
-      "total": 2500,
-      "waktu": "2025-07-06T13:03:08.938Z"
-    },
-    {
-      "id": "t6",
-      "items": [
-        {
-          "id": "1",
-          "nama": "Indomie Goreng",
-          "harga": 2500,
-          "kategori": "Makanan",
-          "jumlah": 1
-        }
-      ],
-      "total": 2500,
-      "waktu": "2025-07-06T13:03:18.666Z"
     }
   ],
   "users": [
     {
-      "id": "1",
+      "id": 1,
       "username": "admin",
       "password": "admin123"
     }
