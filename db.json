@@ -3,7 +3,7 @@
     {
       "id": "1",
       "nama": "Indomie Goreng",
-      "stok": 25,
+      "stok": 23,
       "harga": 2500,
       "kategori": "Makanan"
     },
@@ -31,12 +31,11 @@
   ],
   "transaksi": [
     {
-      "id": "35ee",
+      "id": "t1",
       "items": [
         {
           "id": "1",
           "nama": "Indomie Goreng",
-          "stok": 30,
           "harga": 2500,
           "kategori": "Makanan",
           "jumlah": 3
@@ -46,12 +45,11 @@
       "waktu": "2025-07-05T05:04:14.798Z"
     },
     {
-      "id": "6498",
+      "id": "t2",
       "items": [
         {
           "id": "4",
           "nama": "Teh Botol",
-          "stok": 5,
           "harga": 5000,
           "kategori": "Minuman",
           "jumlah": 5
@@ -61,12 +59,11 @@
       "waktu": "2025-07-05T05:38:42.199Z"
     },
     {
-      "id": "b912",
+      "id": "t3",
       "items": [
         {
           "id": "4",
           "nama": "Teh Botol",
-          "stok": 0,
           "harga": 5000,
           "kategori": "Minuman",
           "jumlah": 1
@@ -76,11 +73,11 @@
       "waktu": "2025-07-05T05:38:48.931Z"
     },
     {
+      "id": "t4",
       "items": [
         {
           "id": "1",
           "nama": "Indomie Goreng",
-          "stok": 27,
           "harga": 2500,
           "kategori": "Makanan",
           "jumlah": 2
@@ -88,7 +85,6 @@
         {
           "id": "2",
           "nama": "Kopi ABC",
-          "stok": 15,
           "harga": 2000,
           "kategori": "Minuman",
           "jumlah": 2
@@ -96,7 +92,6 @@
         {
           "id": "3",
           "nama": "Aqua Botol",
-          "stok": 20,
           "harga": 4000,
           "kategori": "Minuman",
           "jumlah": 2
@@ -104,20 +99,46 @@
         {
           "id": "4",
           "nama": "Teh Botol",
-          "stok": 100,
           "harga": 5000,
           "kategori": "Minuman",
           "jumlah": 1
         }
       ],
       "total": 22000,
-      "waktu": "2025-07-05T11:57:04.269Z",
-      "id": "Cq0oaRp"
+      "waktu": "2025-07-05T11:57:04.269Z"
+    },
+    {
+      "id": "t5",
+      "items": [
+        {
+          "id": "1",
+          "nama": "Indomie Goreng",
+          "harga": 2500,
+          "kategori": "Makanan",
+          "jumlah": 1
+        }
+      ],
+      "total": 2500,
+      "waktu": "2025-07-06T13:03:08.938Z"
+    },
+    {
+      "id": "t6",
+      "items": [
+        {
+          "id": "1",
+          "nama": "Indomie Goreng",
+          "harga": 2500,
+          "kategori": "Makanan",
+          "jumlah": 1
+        }
+      ],
+      "total": 2500,
+      "waktu": "2025-07-06T13:03:18.666Z"
     }
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "admin",
       "password": "admin123"
     }
